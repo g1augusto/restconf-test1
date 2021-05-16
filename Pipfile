@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ansible = "==2.9.2"
+requests = "*"
+pyotp = "==2.3.0"
+Flask = "*"
+PyYAML = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
